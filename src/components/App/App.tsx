@@ -8,11 +8,11 @@ import Loader from '../Loader/Loader';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import { fetchMovies } from '../../services/movieService';
 import MovieModal from '../MovieModal/MovieModal';
-// Помилка: Відсутній імпорт типу Movie
+
 import css from './App.module.css';
 
 export default function App() {
-    // Помилка: використання 'any' замість типу Movie
+   
     const [selectedMovie, setSelectedMovie] = useState<any | null>(null);
     const [query, setQuery] = useState('');
     const [page, setPage] = useState(1);
