@@ -5,7 +5,7 @@ import App from './components/App/App.tsx';
 import 'modern-normalize';
 import './global.css';
 
-// Помилка: відсутня ініціалізація queryClient через new QueryClient()
+
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
